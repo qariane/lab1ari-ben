@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/LoyolaChicagoCode/hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/hello-java)
+[![Build Status](https://github.com/qariane/lab1ari-ben)
 
 This build will always fail because it has 2 examples of failing tests:
 one based on the source code, and one based on an incorrect test.
@@ -7,33 +7,26 @@ one based on the source code, and one based on an incorrect test.
 
 * Simple Fizzbuzz example
 * Building with Gradle (using the Gradle wrapper)
-* Automated unit testing with JUnit
-* Continuous integration with Travis
 * 
+
 
 # System requirements
 
-* Java 6 SDK or later
+*Make sure to update to java 8 
 
 # Running the Application
 
-On Linux or Mac OS X:
+ Mac OS X:
 
     $ ./gradlew run
 	
-On Windows:
-	
-    > gradlew run
 
-# Running the Tests
+# To run the test on my terminal I need to use this command 
 
-On Linux or Mac OS X:
+ Mac OS X:
 
     $ ./gradlew test
 	
-On Windows:
-	
-    > gradlew test
 
 # Running the Application Outside Gradle
 
