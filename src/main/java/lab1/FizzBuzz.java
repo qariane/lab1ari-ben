@@ -1,9 +1,10 @@
 package lab1;
 
 public class FizzBuzz{
+	
     public static void main(String[] args){
-
-        for(int i = 1 ; i <= 17 ; ++i){
+   int n = 17;
+        for( int i = 1 ; i <= n ; ++i){
             String str;
             if(i % (5*3) == 0){
                 str = "FizzBuzz";
