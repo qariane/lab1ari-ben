@@ -13,7 +13,7 @@ An even simplier answer would be to print out each integer individually and simp
 
 #### How could you have automatically tested your initial solution from part 2?
 
-
+We could have made a test to make sure that the results of the test match the expected results. An assertEquals() command can be used to write a test that compares the two.
 
 
 ### Part 4 Discussion
