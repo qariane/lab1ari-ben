@@ -7,7 +7,7 @@ one based on the source code, and one based on an incorrect test.
 
 * Simple Fizzbuzz example
 * Building with Gradle (using the Gradle wrapper)
-* Different parts correspond appropriately
+
 
 
 # System requirements
