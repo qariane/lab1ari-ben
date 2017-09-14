@@ -1,45 +1,74 @@
 package lab1;
+import java.util.*;
+
+//     PART 4 
+public static List<String> fizzBuzz(final int n) {
+    List<String> array = new ArrayList<String>();
+    if (n >= 0) {
+        
+      for( int i = 1 ; i <= n ; i++){
+         
+        if(i % (5*3) == 0){
+        Array[i - 1] = "FizzBuzz";
+        }     
+       
+       else if(i % 3 == 0){
+      Array[i - 1] = "Fizz";
+      }
+                
+      else if(i % 5 == 0){
+      Array[i - 1]= "Buzz";
+       }    
+        else {
+        Array[i - 1]= String.valueOf(i);
+          }
+                
+  	     }      
+              return Array;  
+        
+    }
+ }    
 
 //       PART 3 
 	
-	import java.util.Scanner;
-import java.util.Arrays;
+//	import java.util.Scanner;
+//import java.util.Arrays;
 
- public class Buz{
-  public static void main(String[] args) {
-   Scanner scan = new Scanner(System.in);
-   System.out.println("Please enter a positive integer");
-   int i = scan.nextInt();  
-}
+ //public class Buz{
+ //public static void main(String[] args) {
+ // Scanner scan = new Scanner(System.in);
+ // System.out.println("Please enter a positive integer");
+ // int i = scan.nextInt();  
+//}
 
-  public static String[] fizzbuzz(final int n) { 
-        if (n < 0){
-            	System.out.println("Please enter valid number. ");
-        }else{
+// public static String[] fizzbuzz(final int n) { 
+ //      if (n < 0){
+ //          	System.out.println("Please enter valid number. ");
+ //     }else{
          
-      String Array[] = new String[n];
-         for( int i = 1 ; i <= n ; i++){
+ //    String Array[] = new String[n];
+ //       for( int i = 1 ; i <= n ; i++){
          
-         if(i % (5*3) == 0){
-         Array[i - 1] = "FizzBuzz";
-           }     
+ //       if(i % (5*3) == 0){
+ //       Array[i - 1] = "FizzBuzz";
+ //       }     
        
-          else if(i % 3 == 0){
-          Array[i - 1] = "Fizz";
-            }
+ //      else if(i % 3 == 0){
+ //      Array[i - 1] = "Fizz";
+//       }
                 
-          else if(i % 5 == 0){
-          Array[i - 1]= "Buzz";
-            }    
-         else {
-          Array[i - 1]= String.valueOf(i);
-           }
+ //      else if(i % 5 == 0){
+ //     Array[i - 1]= "Buzz";
+ //      }    
+ //   else {
+ //        Array[i - 1]= String.valueOf(i);
+ //          }
                 
-   	     }      
-               return Array;  
-        
-     }
- }    
+  // 	     }      
+ //              return Array;  
+ //       
+ //    }
+ //}    
 
 	
 	
